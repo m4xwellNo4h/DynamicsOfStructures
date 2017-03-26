@@ -28,6 +28,26 @@ private slots:
     void on_inK_sliderMoved(int position);
     void on_inZ_sliderMoved(int position);
 
+    void on_inZ_sliderPressed();
+
+    void on_inZ_sliderReleased();
+
+    void on_inK_sliderPressed();
+
+    void on_inK_sliderReleased();
+
+    void on_inM_sliderPressed();
+
+    void on_inM_sliderReleased();
+
+    void on_inU0_sliderPressed();
+
+    void on_inU0_sliderReleased();
+
+    void on_inV0_sliderPressed();
+
+    void on_inV0_sliderReleased();
+
 private:
     Ui::MainWindow *ui;
 
